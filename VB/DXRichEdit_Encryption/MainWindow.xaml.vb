@@ -43,7 +43,7 @@ Namespace DXRichEdit_Encryption
 			Dim sfDialog As New Microsoft.Win32.SaveFileDialog()
 			sfDialog.Filter = "Word 2007 Document (*.docx)|*.docx|Microsoft Word Document (*.doc*)|*.doc*"
 			Dim result? As Boolean = sfDialog.ShowDialog()
-			If (Not result.HasValue) OrElse (Not result.Value) Then
+			If Not result.HasValue OrElse Not result.Value Then
 				Return
 			Else
 				Dim ext As String = Path.GetExtension(sfDialog.FileName)
