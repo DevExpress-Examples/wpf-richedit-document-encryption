@@ -111,6 +111,11 @@ namespace DXRichEdit_Encryption
             }
 
         }
+
+        private void RichEditControl1_DecryptionFailed(object sender, DecryptionFailedEventArgs e)
+        {
+            System.Windows.Forms.MessageBox.Show(e.Exception.Message.ToString());
+        }
     }
 
 }

@@ -39,7 +39,8 @@
                                   CommandBarStyle="Empty"
                                   DocumentSource="{Binding Path=RichEditDocumentSource}"
                                   EncryptedFilePasswordRequested="RichEditControl1_EncryptedFilePasswordRequested"
-                                  EncryptedFilePasswordCheckFailed="RichEditControl1_EncryptedFilePasswordCheckFailed">
+                                  EncryptedFilePasswordCheckFailed="RichEditControl1_EncryptedFilePasswordCheckFailed"
+                                  DecryptionFailed="RichEditControl1_DecryptionFailed">
             </dxre:RichEditControl>
         </Grid>
     </DockPanel>

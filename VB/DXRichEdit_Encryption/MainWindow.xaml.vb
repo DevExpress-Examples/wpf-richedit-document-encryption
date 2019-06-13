@@ -43,7 +43,7 @@ Namespace DXRichEdit_Encryption
 			Dim sfDialog As New Microsoft.Win32.SaveFileDialog()
 			sfDialog.Filter = "Word 2007 Document (*.docx)|*.docx|Microsoft Word Document (*.doc*)|*.doc*"
 			Dim result? As Boolean = sfDialog.ShowDialog()
-			If Not result.HasValue OrElse Not result.Value Then
+			If (Not result.HasValue) OrElse (Not result.Value) Then
 				Return
 			Else
 				Dim ext As String = Path.GetExtension(sfDialog.FileName)
@@ -99,6 +99,10 @@ Namespace DXRichEdit_Encryption
 					End If
 			End Select
 
+		End Sub
+
+		Private Sub RichEditControl1_DecryptionFailed(ByVal sender As Object, ByVal e As DecryptionFailedEventArgs)
+			System.Windows.Forms.MessageBox.Show(e.Exception.Message.ToString())
 		End Sub
 	End Class
 
