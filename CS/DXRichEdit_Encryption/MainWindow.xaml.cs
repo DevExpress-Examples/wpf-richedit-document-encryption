@@ -109,6 +109,7 @@ namespace DXRichEdit_Encryption
                     }
                     break;
             }
+            e.Handled = true;
 
         }
 

@@ -98,7 +98,7 @@ Namespace DXRichEdit_Encryption
 						End If
 					End If
 			End Select
-
+			e.Handled = True
 		End Sub
 
 		Private Sub RichEditControl1_DecryptionFailed(ByVal sender As Object, ByVal e As DecryptionFailedEventArgs)
