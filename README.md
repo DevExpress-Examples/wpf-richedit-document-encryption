@@ -20,7 +20,7 @@ The following sample project shows how to use the RichEditControl for WPF to loa
 
 * [Restrictions and Protection in RichEdit Documents](https://docs.devexpress.com/WPF/9111/controls-and-libraries/rich-text-editor/restrictions-and-protection)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-richedit-document-encryption&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-richedit-document-encryption&~~~was_helpful=no)
 
